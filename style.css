@@ -22,10 +22,10 @@ header {
     text-transform: uppercase;
 }
 
-nav {
-    text-align: right;
-    padding-right: 10rem;
+.navbar a {
+    position: absolute;
+    right: 150px;
+    width: 200px;
+    height: 120px;
+    border: 3px solid green;
 }
-.vertical-center {
-    position: relative;
-    top: 30%;
