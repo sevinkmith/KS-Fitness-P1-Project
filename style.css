@@ -1,0 +1,31 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: darkgray;
+}
+
+#logo {
+    text-align: left;
+    position: relative;
+    width: 100px;
+}
+
+header {
+    background-color: rgb(79, 187, 79);
+    display: block;
+}
+.page-header {
+    height: 25vh;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: right;
+    padding-right: 10rem;
+}
+.vertical-center {
+    position: relative;
+    top: 30%;
