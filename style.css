@@ -4,28 +4,45 @@ body {
     background-color: darkgray;
 }
 
-#logo {
-    text-align: left;
-    position: relative;
-    width: 100px;
+header {
+	height: 100px;
+	background-color: dark-green;
 }
 
-header {
-    background-color: rgb(79, 187, 79);
-    display: block;
+#logo {
+    float: left;
 }
-.page-header {
-    height: 25vh;
+
+nav {
+	float: right;
 }
+
+ul {
+	list-style-type: none;
+  	margin: 0;
+ 	 padding: 0;
+  	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
 
 .text-uppercase {
     text-transform: uppercase;
 }
 
-.navbar a {
-    position: absolute;
-    right: 150px;
-    width: 200px;
-    height: 120px;
-    border: 3px solid green;
-}
+
