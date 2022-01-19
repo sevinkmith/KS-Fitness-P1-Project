@@ -19,6 +19,7 @@ nav {
 	margin-right: 100px;
 	text-align: center;
 	background-color: darkgreen;
+		
 }
 
 ul {
@@ -75,6 +76,7 @@ footer {
 	background-color: grey;
 	margin-right: 80px;
 	width: 20%;
+	border-radius: 8px;
 }
 .one-third-width-column {
 	width: 33.33%;
@@ -91,4 +93,10 @@ footer {
 
 .float-left {
 	float: left;
+}
+
+img {
+	margin-left: 100px;
+	margin-bottom: 200px;
+	border-radius: 8px;
 }
