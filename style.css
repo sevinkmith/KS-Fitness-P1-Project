@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background-color: grey;
+    background-color: #111;
 }
 
 header {
@@ -44,9 +44,12 @@ li a:hover {
 	background-color: #111;
 }
 
-
 .text-uppercase {
     text-transform: uppercase;
+}
+
+.text-center {
+	text-align: center;
 }
 
 .sticky {
@@ -64,4 +67,14 @@ footer {
 	background-color: darkgreen;
 	text-align: center;
 	
+}
+.about-box {
+	color: white;
+	margin-top: 200px;
+	padding: 10px 5px 25px 5px;
+	background-color: grey;
+}
+.one-third-width-column {
+	width: 33.33%;
+	display: inline-block;
 }
