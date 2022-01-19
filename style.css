@@ -9,6 +9,10 @@ header {
 	background-color: darkgreen;
 }
 
+header img {
+	margin-left: 100px;
+}
+
 #logo {
     float: left;
 	height: 100px;
@@ -71,11 +75,11 @@ footer {
 }
 .about-box {
 	color: white;
-	margin-top: 200px;
+	margin-top: 300px;
 	padding: 10px 5px 25px 5px;
 	background-color: grey;
 	margin-right: 80px;
-	width: 20%;
+	width: 70vw;
 	border-radius: 8px;
 }
 .one-third-width-column {
@@ -95,8 +99,12 @@ footer {
 	float: left;
 }
 
-img {
+div img {
 	margin-left: 100px;
-	margin-bottom: 200px;
+	margin-bottom: 800px;
 	border-radius: 8px;
+	width: 56vw;
+}
+footer a:hover {
+	background-color: #111;
 }
