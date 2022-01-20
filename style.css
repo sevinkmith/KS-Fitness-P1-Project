@@ -25,7 +25,15 @@ nav {
 	background-color: darkgreen;
 		
 }
+section {
+	display: block;
+}
 
+#plans {
+	padding: 1rem 0;
+		margin-bottom: 80px;
+	}
+	
 ul {
 	list-style-type: none;
   	margin: 0;
@@ -39,7 +47,7 @@ li {
 
 li a {
 	display: block;
-	color: white;
+	color: #ffffff;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -71,25 +79,38 @@ footer {
 	height: 100px;
 	background-color: darkgreen;
 	text-align: center;
+	color: #ffffff;
 	
 }
 
 .about-box {
-	color: white;
+	color: #ffffff;
 	margin-top: 300px;
 	padding: 10px 5px 25px 5px;
 	background-color: #111;
 	width: 70vw;
 	border-radius: 8px;
 }
+.flex-container {
+    display: flex;
+	position: fixed;
+}
+
+footer a:hover {
+	background-color: #111;
+}
 
 .one-third-width-column {
 	width: 33.33%;
 	display: inline-block;
 }
+
 .two-thirds-width-column {
     width: 66%;
     display: inline-block;
+}
+.text-white {
+	color: #ffffff;
 }
 
 .float-right{
@@ -106,7 +127,4 @@ div img {
 	border-radius: 8px;
 	margin-top: 110px;
 	width: 56vw;
-}
-footer a:hover {
-	background-color: #111;
 }
