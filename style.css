@@ -33,15 +33,15 @@ section {
 	padding: 1rem 0;
 		margin-bottom: 80px;
 	}
-	
-ul {
+
+header ul {
 	list-style-type: none;
   	margin: 0;
  	padding: 0;
   	overflow: hidden;
 }
 
-li {
+header li {
 	float: left;
 }
 
@@ -80,7 +80,6 @@ footer {
 	background-color: darkgreen;
 	text-align: center;
 	color: #ffffff;
-	
 }
 
 .about-box {
@@ -95,7 +94,40 @@ footer {
     display: flex;
 	position: fixed;
 }
+#shredding-plan {
+	background-color: #111;
+    position: relative;
+    left: 70px;
+    top: -15px;
+}
+#bulking-plan {
+    background-color: #111;
+	z-index: 1;
+}
 
+.plans-box {
+    width: 30%;
+    margin: 1rem 0;
+    display: inline-block;
+	color: #ffffff;
+}
+
+ ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#tailored-plan {
+	background-color: #111;
+    position: relative;
+    right: 70px;
+    top: -15px;
+}
 footer a:hover {
 	background-color: #111;
 }
