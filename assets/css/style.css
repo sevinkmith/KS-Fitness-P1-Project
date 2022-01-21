@@ -76,7 +76,6 @@ li a:hover {
 #gym-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;
 
     position: relative;
 }
@@ -86,8 +85,9 @@ li a:hover {
 }
 
 #gym-image {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
+	top: 100px;
     background: url(/assets/Images/open-gym.jpg) no-repeat center center;
 
     /* animates zoom effect on loading page */
@@ -110,17 +110,20 @@ li a:hover {
     font-size: 80%;
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
+	text-align: center;
 
     width: 500px;
     height: 400px;
 
-    padding-top: 25px;
+    padding-top: 50px;
     padding-left: 50px;
+	padding-right: 50px;
 
-    background-color: rgba(67, 155, 75, 0.7);
+    background-color: rgba(5, 63, 10, 0.8);
 
-    bottom: 75px;
-    right: 50px;
+    bottom: 50px;
+    right: 700px;
+	top: 200px;
 
     position: absolute;
 }
