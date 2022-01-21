@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background-color: #7F5112 ;
+	font-weight: 400;
 }
 
 header {
@@ -17,7 +17,7 @@ header img {
     float: left;
 	height: 100px;
 }
-
+/* nav bar style */
 nav {
 	float: right;
 	margin-right: 100px;
@@ -25,14 +25,6 @@ nav {
 	background-color: darkgreen;
 		
 }
-section {
-	display: block;
-}
-
-#plans {
-	padding: 1rem 0;
-		margin-bottom: 80px;
-	}
 
 header ul {
 	list-style-type: none;
@@ -65,10 +57,76 @@ li a:hover {
 	text-align: center;
 }
 
+.float-right{
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
+}
+
+/* background image and */
+
+#gym-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text p {
+    color: #fff;
+}
+
+#gym-image {
+    height: 100vh;
+    width: 100%;
+    background: url(/assets/Images/open-gym.jpg) no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#about-text {
+    font-size: 80%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+
+    width: 500px;
+    height: 400px;
+
+    padding-top: 25px;
+    padding-left: 50px;
+
+    background-color: rgba(67, 155, 75, 0.7);
+
+    bottom: 75px;
+    right: 50px;
+
+    position: absolute;
+}
+
+.float-center {
+	float: center;
 }
 
 footer {
@@ -81,15 +139,13 @@ footer {
 	text-align: center;
 	color: #ffffff;
 }
+/* online plans */
 
-.about-box {
-	color: #ffffff;
-	margin-top: 300px;
-	padding: 10px 5px 25px 5px;
-	background-color: #111;
-	width: 70vw;
-	border-radius: 8px;
-}
+#plans {
+	padding: 1rem 0;
+		margin-bottom: 80px;
+	}
+
 .flex-container {
     display: flex;
 	position: fixed;
@@ -127,15 +183,6 @@ footer a:hover {
 	background-color: #111;
 }
 
-.one-third-width-column {
-	width: 33.33%;
-	display: inline-block;
-}
-
-.two-thirds-width-column {
-    width: 66%;
-    display: inline-block;
-}
 .text-white {
 	color: #ffffff;
 }
@@ -148,10 +195,3 @@ footer a:hover {
 	float: left;
 }
 
-div img {
-	margin-left: auto;
-	margin-bottom: auto;
-	border-radius: 8px;
-	margin-top: 110px;
-	width: 56vw;
-}
