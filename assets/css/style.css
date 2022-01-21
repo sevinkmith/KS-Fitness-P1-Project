@@ -89,6 +89,9 @@ li a:hover {
     width: 100%;
 	top: 100px;
     background: url(/assets/Images/open-gym.jpg) no-repeat center center;
+	position: absolute;
+	z-index: -1;
+
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
