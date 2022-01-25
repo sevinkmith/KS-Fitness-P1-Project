@@ -147,42 +147,23 @@ footer {
 }
 /* online plans */
 
-#plans {
-	padding: 1rem 0;
-		margin-bottom: 80px;
-	}
-
-.flex-container {
-    display: flex;
-	position: fixed;
+.online-plans {
+	padding: 12vh 0;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
 }
-#shredding-plan {
-	float:left;
-	width:30%;
-	background-color:red;
-	margin-left: 100px;
-   
+	
+@media (min-width: 40rem) {
+	.online-plans {
+	flex-direction: row;
 }
-#bulking-plan {
-	margin:auto;
-	width:30%;
-	background-color:blue;
 }
-
-#tailored-plan {
-	float:right;
-	width:30%;
-	background-color: purple;
-	margin-right: 90px;
-}
-
-.plans-box {
-    width: 30%;
-    display: inline-block;
-	color: #ffffff;
-	padding: auto;
-	border-radius: 8px;
-	padding-bottom: 10px;
+	
+.plans-details {
+	background: darkgreen;
+	flex: 30%;
 }
 
 footer a:hover {
