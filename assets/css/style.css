@@ -168,8 +168,11 @@ footer {
 }
 
 #gym-image h2 {
-	padding-top: 120px;
+	padding-top: 100px;
 	color: #fff;
+	margin: 20px 0;
+	font-size: 250%;
+	padding-bottom: 0;
 }
 
 #gym-image h2 span {
