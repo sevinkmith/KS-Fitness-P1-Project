@@ -160,10 +160,20 @@ footer {
 	background-color: rgba(5, 63, 10, 0.8);
 	color: #fff;
 }
+
+@media (min-width: 40rem) {
+	.online-plans {
+	flex-direction: row;
+}
+}
+
 #gym-image h2 {
 	padding-top: 120px;
-	background-color: rgba(5, 63, 10, 0.8);
 	color: #fff;
+}
+
+#gym-image h2 span {
+	background-color: rgba(5, 63, 10, 0.8);
 }
 
 footer a:hover {
