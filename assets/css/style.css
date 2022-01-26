@@ -148,22 +148,22 @@ footer {
 /* online plans */
 
 .online-plans {
-	padding: 12vh 0;
+	padding: 5vh 0;
 	text-align: center;
 	display: flex;
 	justify-content: space-around;
-	flex-direction: column;
 }
-	
-@media (min-width: 40rem) {
-	.online-plans {
-	flex-direction: row;
-}
-}
+
 	
 .plans-details {
-	background: darkgreen;
-	flex: 30%;
+	flex-basis: 30%;
+	background-color: rgba(5, 63, 10, 0.8);
+	color: #fff;
+}
+#gym-image h2 {
+	padding-top: 120px;
+	background-color: rgba(5, 63, 10, 0.8);
+	color: #fff;
 }
 
 footer a:hover {
