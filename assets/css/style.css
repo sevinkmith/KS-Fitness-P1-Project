@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 	font-weight: 400;
+	background-color: #111;
 }
 
 header {
@@ -131,6 +132,7 @@ footer {
 	padding-top: 30px;
 	width: 33%;
 	float: left;
+	padding-bottom: 130px;
 	}
 	
 .left-side-benefit {
@@ -148,6 +150,7 @@ footer {
 	padding-top: 30px;
 	width: 33%;
 	float: right;
+	padding-bottom: 130px;
 	}
 	
 .right-side-benefit {
@@ -159,8 +162,13 @@ footer {
 	background-color: rgba(5, 63, 10, 0.8);
 	color: #fff;
 	padding: 5vh 0;
-	}
+}
 
+#benefits-section {
+	padding-top: 0;
+	margin-bottom: 250px;
+	background-color: #111;
+}
 
 #background-image h2 {
 	padding-top: 200px;
@@ -168,6 +176,17 @@ footer {
 	margin: 20px 0;
 	font-size: 250%;
 	padding-bottom: 0;
+}
+#benefits-section h2 {
+	padding-top: 0;
+	color: #fff;
+	margin: 20px 0;
+	font-size: 250%;
+	padding-bottom: 0;
+}
+
+#benefits-section h2 span {
+	background-color: rgba(5, 63, 10, 0.8);
 }
 
 #background-image h2 span {
