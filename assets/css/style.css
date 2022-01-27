@@ -86,13 +86,13 @@ li a:hover {
 	z-index: -1;
 }
 
-#about-text {
-	display: flex;							
-	flex-direction: row;						
+#about-text {					
 	text-align: center;
+	margin: 0 auto;
 	background-color: rgba(5, 63, 10, 0.8);
 	color: #fff;
-	margin: 0 auto;
+	padding-left: 30%;
+	padding-right: 30%;
 }
 
 footer {
@@ -164,6 +164,28 @@ footer {
 	padding: 5vh 0;
 }
 
+#center-benefits {
+    width: 33%;
+    margin: 0 auto;
+	padding-top: 70px;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('/assets/Images/benefits-symbol.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
 #benefits-section {
 	padding-top: 0;
 	margin-bottom: 250px;
@@ -191,6 +213,26 @@ footer {
 
 #background-image h2 span {
 	background-color: rgba(5, 63, 10, 0.8);
+}
+
+/* contact is form */
+
+#contact-us-form {
+	display: block;
+	margin: auto;
+	color: #fff;
+	background-color: rgba(5, 63, 10, 0.8);
+	max-width: 400px;
+	position: absolute;
+	padding: 30px;
+}
+
+#contact-us-form h2 {
+	padding-top: 0;
+	color: #fff;
+	margin: 20px 0;
+	font-size: 250%;
+	padding-bottom: 0;
 }
 
 footer a:hover {
