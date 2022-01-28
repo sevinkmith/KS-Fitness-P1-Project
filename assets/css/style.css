@@ -192,7 +192,7 @@ footer {
 
 #benefits-section {
 	padding-top: 0;
-	margin-bottom: 300px;
+	margin-bottom: 150px;
 	background-color: #111;
 }
 
@@ -218,17 +218,33 @@ footer {
 #background-image h2 span {
 	background-color: rgba(5, 63, 10, 0.8);
 }
+#video-section h2 {
+	padding-top: 0;
+	color: #fff;
+	margin: 20px 0;
+	font-size: 250%;
+	padding-bottom: 0;
+}
 
-/* contact is form */
+#video-section h2 span {
+	background-color: rgba(5, 63, 10, 0.8);
+}
+video {
+	width: 80%;
+	height: 70vh;
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+}
+/* contact us form */
 
 #contact-us-form {
-	margin: 0 auto;
-	margin-top: 150px;
-	margin-left: 340px;
+	margin: auto;
+	margin-top: 180px;
 	color: #fff;
 	background-color: rgba(5, 63, 10, 0.8);
 	max-width: 400px;
-	position: absolute;
+	position: relative;
 	padding: 30px;
 }
 
@@ -265,6 +281,15 @@ footer {
 	font-size: 250%;
 	padding-bottom: 0;
 }
+/* Submit page */
+.submit-text{
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(5, 63, 10, 0.8);
+	color: #fff;
+	padding: 30px;
+	max-width: 400px;
+}
 
 footer a:hover {
 	background-color: rgba(5, 63, 10, 0.8);
@@ -291,6 +316,10 @@ footer {
 footer a {
 	font-size: 200%;
 	padding: 10;
+}
+
+footer a:hover {
+	background-color: rgba(5, 63, 10, 0.8);
 }
 
 .social-networks {
