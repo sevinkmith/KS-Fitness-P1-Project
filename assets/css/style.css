@@ -6,7 +6,7 @@ body {
 }
 
 header {
-	height: 100px;
+	height: 150px;
 	background-color: darkgreen;
 }
 
@@ -22,9 +22,9 @@ header img {
 nav {
 	float: right;
 	margin-right: 100px;
+	line-height: 100px;
 	text-align: center;
-	background-color: darkgreen;
-		
+	background-color: darkgreen;		
 }
 
 header ul {
@@ -47,7 +47,7 @@ li a {
 }
 
 li a:hover {
-	background-color: #111;
+	background-color: rgba(5, 63, 10, 0.8)
 }
 
 .text-uppercase {
@@ -192,7 +192,7 @@ footer {
 
 #benefits-section {
 	padding-top: 0;
-	margin-bottom: 250px;
+	margin-bottom: 300px;
 	background-color: #111;
 }
 
@@ -267,7 +267,7 @@ footer {
 }
 
 footer a:hover {
-	background-color: #111;
+	background-color: rgba(5, 63, 10, 0.8);
 }
 
 .text-white {
@@ -282,22 +282,40 @@ footer a:hover {
 	float: left;
 }
 
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+footer a {
+	font-size: 200%;
+	padding: 10;
+}
+
+.social-networks {
+    text-align: center;
+    display: inline;
+    padding: 0;
+    color: #3a3a3a;
+}
+
 @media screen and (max-width: 1200px) {
 	#benefits-section {
 	width: 65%;
-			height: 1200px;
-			margin: 0 auto;
-	}
+	height: 1200px;
+	margin: 0 auto;
+}
 	
 	#left-side, #right-side {
 	width: 100%;
-			float: left;
-			padding: 0;
-	}
+	float: left;
+	padding: 0;
+}
 	#center-benefits {
 	clear: both;
-			width: 100%;
-			float: left;
-			padding: 0;
-	}
-	}
+	width: 100%;
+	float: left;
+	padding: 0;
+}
+}
