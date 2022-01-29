@@ -229,13 +229,18 @@ footer {
 #video-section h2 span {
 	background-color: rgba(5, 63, 10, 0.8);
 }
+
+#video-section {
+	height: 1000px;
+}
 video {
-	width: 80%;
-	height: 70vh;
-	position: relative;
-	margin: 0 auto;
+	width: 60%;
+	min-width: 70%;
+	height: 60%;
+	min-height: 500px;
 	padding: 20px;
 }
+
 /* contact us form */
 
 #contact-us-form {
