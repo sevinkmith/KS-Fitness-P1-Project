@@ -1,6 +1,6 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
 	font-weight: 400;
 	background-color: #111;
 }
@@ -15,21 +15,22 @@ header img {
 }
 
 #logo {
-    float: left;
+	float: left;
 	height: 100px;
 }
+
 /* nav bar style */
 nav {
 	float: right;
 	text-align: center;
-	background-color: darkgreen;		
+	background-color: darkgreen;
 }
 
 header ul {
 	list-style-type: none;
-  	margin: 0;
- 	padding: 0;
-  	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 header li {
@@ -45,18 +46,19 @@ li a {
 }
 
 li a:hover {
-	background-color: rgba(5, 63, 10, 0.8)
+	background-color: #053f0a;
+    opacity: 0.8;
 }
 
 .text-uppercase {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .text-center {
 	text-align: center;
 }
 
-.float-right{
+.float-right {
 	float: right;
 }
 
@@ -72,22 +74,24 @@ li a:hover {
 
 /* background image and */
 
-#cover-text, p {
-    color: #fff;
+#cover-text,
+p {
+	color: #fff;
 }
 
 #background-image {
-    background-image: url(assets/Images/open-gym.jpg);
+	background-image: url(../../assets/Images/open-gym.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
 	z-index: -1;
 }
 
-#about-text {					
+#about-text {
 	text-align: center;
 	margin: 0 auto;
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 	color: #fff;
 	padding: 30px;
 	max-width: 400px;
@@ -107,6 +111,7 @@ footer {
 	text-align: center;
 	color: #ffffff;
 }
+
 /* online plans */
 
 .online-plans {
@@ -116,18 +121,20 @@ footer {
 	justify-content: space-around;
 }
 
-	
+
 .plans-details {
 	flex-basis: 30%;
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 	color: #fff;
 }
 
 @media (min-width: 40rem) {
 	.online-plans {
-	flex-direction: row;
+		flex-direction: row;
+	}
 }
-}
+
 /* Benefits section */
 
 #left-side {
@@ -135,57 +142,59 @@ footer {
 	width: 33%;
 	float: left;
 	padding-bottom: 130px;
-	}
-	
+}
+
 .left-side-benefit {
 	width: 60%;
 	float: right;
 	line-height: 20px;
 	clear: both;
 	margin-bottom: 50px;
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 	color: #fff;
 	padding: 30px;
-	}
-	
+}
+
 #right-side {
 	padding: 30px;
 	width: 33%;
 	float: right;
 	padding-bottom: 130px;
-	}
-	
+}
+
 .right-side-benefit {
 	width: 60%;
 	float: left;
 	line-height: 20px;
 	clear: both;
 	margin-bottom: 50px;
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 	color: #fff;
 	padding: 30px;
 }
 
 #center-benefits {
-    width: 33%;
-    margin: 0 auto;
+	width: 33%;
+	margin: 0 auto;
 	padding-top: 70px;
 }
 
 #circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	padding: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50%;
+	margin: 0 auto;
 }
 
 #circle-cover-bg {
-    background: url('/assets/Images/benefits-symbol.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
+	background: url('/assets/Images/benefits-symbol.jpg') no-repeat center center;
+	height: 100%;
+	border-radius: 50%;
 }
 
 #benefits-section {
@@ -201,6 +210,7 @@ footer {
 	font-size: 250%;
 	padding-bottom: 0;
 }
+
 #benefits-section h2 {
 	padding-top: 0;
 	color: #fff;
@@ -210,12 +220,15 @@ footer {
 }
 
 #benefits-section h2 span {
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 }
 
 #background-image h2 span {
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 }
+
 #video-section h2 {
 	padding-top: 0;
 	color: #fff;
@@ -225,13 +238,15 @@ footer {
 }
 
 #video-section h2 span {
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 }
 
 #video-section {
 	height: 1000px;
 	padding-top: 200px;
 }
+
 video {
 	width: 60%;
 	min-width: 70%;
@@ -246,7 +261,8 @@ video {
 	margin: auto;
 	margin-top: 180px;
 	color: #fff;
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 	max-width: 400px;
 	position: relative;
 	padding: 30px;
@@ -267,6 +283,7 @@ video {
 	border-radius: 2px;
 }
 
+/* Adjust padding and colour of submit button */
 .submit-button {
 	margin-top: 20px;
 	border-radius: 2px;
@@ -285,25 +302,28 @@ video {
 	font-size: 250%;
 	padding-bottom: 0;
 }
+
 /* Submit page */
-.submit-text{
+.submit-text {
 	text-align: center;
 	margin: 0 auto;
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 	color: #fff;
 	padding: 30px;
 	max-width: 400px;
 }
 
 footer a:hover {
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 }
 
 .text-white {
 	color: #ffffff;
 }
 
-.float-right{
+.float-right {
 	float: right;
 }
 
@@ -314,7 +334,7 @@ footer a:hover {
 /* footer */
 
 footer {
-    height: 150px;
+	height: 150px;
 }
 
 footer a {
@@ -323,32 +343,47 @@ footer a {
 }
 
 footer a:hover {
-	background-color: rgba(5, 63, 10, 0.8);
+	background-color: #053f0a;
+    opacity: 0.8;
 }
 
 .social-networks {
-    text-align: center;
-    display: inline;
-    padding: 0;
-    color: #3a3a3a;
+	text-align: center;
+	display: inline;
+	padding: 0;
+	color: #3a3a3a;
 }
 
 @media screen and (max-width: 1200px) {
 	#benefits-section {
-	width: 65%;
-	height: 1200px;
-	margin: 0 auto;
-}
-	
-	#left-side, #right-side {
-	width: 100%;
-	float: left;
-	padding: 0;
-}
+		width: 65%;
+		height: 1200px;
+		margin: 0 auto;
+	}
+
+	#left-side,
+	#right-side {
+		width: 100%;
+		float: left;
+		padding: 0;
+	}
+
 	#center-benefits {
-	clear: both;
-	width: 100%;
-	float: left;
-	padding: 0;
+		clear: both;
+		width: 100%;
+		float: left;
+		padding: 0;
+	}
 }
-}
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+	nav {
+		clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+	}
