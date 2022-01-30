@@ -24,6 +24,7 @@ nav {
 	float: right;
 	text-align: center;
 	background-color: darkgreen;
+	padding-top: 20px;
 }
 
 header ul {
@@ -46,8 +47,7 @@ li a {
 }
 
 li a:hover {
-	background-color: #053f0a;
-    opacity: 0.8;
+	background-color: rgb(5,63,10)
 }
 
 .text-uppercase {
@@ -90,8 +90,7 @@ p {
 #about-text {
 	text-align: center;
 	margin: 0 auto;
-	background-color: #053f0a;
-    opacity: 0.8;
+	background-color: #053F0A;
 	color: #fff;
 	padding: 30px;
 	max-width: 400px;
@@ -125,7 +124,6 @@ footer {
 .plans-details {
 	flex-basis: 30%;
 	background-color: #053f0a;
-    opacity: 0.8;
 	color: #fff;
 }
 
@@ -151,7 +149,6 @@ footer {
 	clear: both;
 	margin-bottom: 50px;
 	background-color: #053f0a;
-    opacity: 0.8;
 	color: #fff;
 	padding: 30px;
 }
@@ -170,7 +167,6 @@ footer {
 	clear: both;
 	margin-bottom: 50px;
 	background-color: #053f0a;
-    opacity: 0.8;
 	color: #fff;
 	padding: 30px;
 }
@@ -221,12 +217,10 @@ footer {
 
 #benefits-section h2 span {
 	background-color: #053f0a;
-    opacity: 0.8;
 }
 
 #background-image h2 span {
 	background-color: #053f0a;
-    opacity: 0.8;
 }
 
 #video-section h2 {
@@ -239,7 +233,6 @@ footer {
 
 #video-section h2 span {
 	background-color: #053f0a;
-    opacity: 0.8;
 }
 
 #video-section {
@@ -259,10 +252,9 @@ video {
 
 #contact-us-form {
 	margin: auto;
+	background-color: #053f0a;
 	margin-top: 180px;
 	color: #fff;
-	background-color: #053f0a;
-    opacity: 0.8;
 	max-width: 400px;
 	position: relative;
 	padding: 30px;
@@ -285,11 +277,12 @@ video {
 
 /* Adjust padding and colour of submit button */
 .submit-button {
-	margin-top: 20px;
+	margin-top: 10px;
 	border-radius: 2px;
-	padding: 15px 32px 15px 32px;
+	padding: 10px;
 	text-align: center;
-	background-color: rgb(20, 62, 201);
+	border-style: outset;
+	background-color: #0066A2;
 	color: #fafafa;
 	display: block;
 	font-size: 110%;
@@ -308,7 +301,6 @@ video {
 	text-align: center;
 	margin: 0 auto;
 	background-color: #053f0a;
-    opacity: 0.8;
 	color: #fff;
 	padding: 30px;
 	max-width: 400px;
